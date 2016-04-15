@@ -14,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Kc5-tK-aiH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mCm-hO-ziO">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="406"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="NAv-ca-brn">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="406"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
@@ -67,7 +67,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vmi-HX-V8N">
                                 <rect key="frame" x="0.0" y="150" width="600" height="406"/>
                                 <connections>
-                                    <segue destination="jhD-CL-BJu" kind="embed" id="gU9-Xs-AhY"/>
+                                    <segue destination="XMK-7Z-blf" kind="embed" id="K50-ut-LZG"/>
                                 </connections>
                             </containerView>
                             <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Emoji to Represent Your Desired Attitude!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prW-pK-G82">
@@ -111,22 +111,6 @@
             </objects>
             <point key="canvasLocation" x="149" y="1042"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="40H-Vo-Gab">
-            <objects>
-                <navigationController id="9cE-Yf-cjR" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OdR-sB-PXV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="XMK-7Z-blf" kind="relationship" relationship="rootViewController" id="x9K-5z-bA7"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4ay-50-pj1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-606" y="345"/>
-        </scene>
         <!--Emoji Detail View Controller-->
         <scene sceneID="BxR-V0-9EU">
             <objects>
@@ -136,17 +120,17 @@
                         <viewControllerLayoutGuide type="bottom" id="mDR-wz-Hav"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xvV-uV-bxf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="406"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emojis Defined™" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYU-HC-RqU">
-                                <rect key="frame" x="26" y="325" width="548" height="225"/>
+                                <rect key="frame" x="26" y="325" width="548" height="31"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8A-n4-aCz">
-                                <rect key="frame" x="26" y="114" width="548" height="200"/>
+                                <rect key="frame" x="26" y="50" width="548" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="NTU-Bb-q8A"/>
                                 </constraints>
@@ -169,6 +153,7 @@
                     <connections>
                         <outlet property="emojiDefinition" destination="uYU-HC-RqU" id="O7M-bf-Dyi"/>
                         <outlet property="emojiEnlarged" destination="t8A-n4-aCz" id="L4m-Px-Rf5"/>
+                        <segue destination="Krg-wb-Z0S" kind="show" identifier="SwipeBackSegue" id="gwL-9H-2vz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="49g-Dl-A1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -222,23 +207,8 @@
             </objects>
             <point key="canvasLocation" x="-606" y="1042"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Pvw-wc-VS3">
-            <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="jhD-CL-BJu" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="13i-uG-0gc"/>
-                        <viewControllerLayoutGuide type="bottom" id="Hpz-WZ-3m8"/>
-                    </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ceg-y2-rcH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="406"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AzC-Sw-g4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="gwL-9H-2vz"/>
+    </inferredMetricsTieBreakers>
 </document>

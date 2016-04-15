@@ -60,7 +60,7 @@ class MainEmojiList : UIViewController, UITableViewDataSource, UITableViewDelega
             
 
         default:
-            detailViewController.emojiDef = "No definition found. We're sorry 😔"
+            detailViewController.emojiDef = "Fun fact: Did you know nearly 50% of our DNA is the same as a banana's?\nThat means... One could almost say that you're a banana!"
         }
     }
     
