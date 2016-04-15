@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 class emojiDetailViewController : UIViewController {
-//    @IBOutlet var View: UIView!
     
     @IBOutlet weak var emojiDefinition: UILabel!
     @IBOutlet weak var emojiEnlarged: UILabel!

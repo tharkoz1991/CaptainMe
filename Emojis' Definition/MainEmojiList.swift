@@ -26,7 +26,7 @@ class MainEmojiList : UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return emojis.count; //self.emojis.count ?? Add "self" to all?
+        return self.emojis.count;
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
