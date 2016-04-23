@@ -13,6 +13,14 @@
 		8D50BA971B41C5CD00DACA0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D50BA961B41C5CD00DACA0A /* Images.xcassets */; };
 		8D50BA9A1B41C5CD00DACA0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D50BA981B41C5CD00DACA0A /* LaunchScreen.xib */; };
 		8D50BAA61B41C5CD00DACA0A /* Emojis__DefinitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D50BAA51B41C5CD00DACA0A /* Emojis__DefinitionTests.swift */; };
+		8D74202C1CCAED5800C27B02 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D7420291CCAED5800C27B02 /* AcousticModelEnglish.bundle */; };
+		8D74202D1CCAED5800C27B02 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74202A1CCAED5800C27B02 /* OpenEars.framework */; };
+		8D74202E1CCAED5800C27B02 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74202B1CCAED5800C27B02 /* Slt.framework */; };
+		8D7420301CCAF25900C27B02 /* RapidEarsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74202F1CCAF25900C27B02 /* RapidEarsDemo.framework */; };
+		8D7420321CCAF46900C27B02 /* RejectoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7420311CCAF46900C27B02 /* RejectoDemo.framework */; };
+		8D7420341CCAF4D300C27B02 /* RuleORamaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7420331CCAF4D300C27B02 /* RuleORamaDemo.framework */; };
+		8D7420381CCC354000C27B02 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7420361CCC354000C27B02 /* AudioToolbox.framework */; };
+		8D7420391CCC354000C27B02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7420371CCC354000C27B02 /* AVFoundation.framework */; };
 		8D97EE3E1CC06CFA007AD22F /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D97EE3D1CC06CFA007AD22F /* InitView.swift */; };
 		8D97EE401CC07218007AD22F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D97EE3F1CC07218007AD22F /* SettingsView.swift */; };
 		8DE8FD6F1B47570E006395C5 /* emojiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE8FD6E1B47570E006395C5 /* emojiDetailViewController.swift */; };
@@ -40,6 +48,15 @@
 		8D50BA9F1B41C5CD00DACA0A /* Emojis' DefinitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emojis' DefinitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D50BAA41B41C5CD00DACA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D50BAA51B41C5CD00DACA0A /* Emojis__DefinitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis__DefinitionTests.swift; sourceTree = "<group>"; };
+		8D7420291CCAED5800C27B02 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		8D74202A1CCAED5800C27B02 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		8D74202B1CCAED5800C27B02 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		8D74202F1CCAF25900C27B02 /* RapidEarsDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RapidEarsDemo.framework; sourceTree = "<group>"; };
+		8D7420311CCAF46900C27B02 /* RejectoDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RejectoDemo.framework; sourceTree = "<group>"; };
+		8D7420331CCAF4D300C27B02 /* RuleORamaDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RuleORamaDemo.framework; sourceTree = "<group>"; };
+		8D7420351CCBF6EE00C27B02 /* BridgingHeaderCtoSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeaderCtoSwift.h; sourceTree = "<group>"; };
+		8D7420361CCC354000C27B02 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8D7420371CCC354000C27B02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8D97EE3D1CC06CFA007AD22F /* InitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
 		8D97EE3F1CC07218007AD22F /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8DE8FD6E1B47570E006395C5 /* emojiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emojiDetailViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +67,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7420381CCC354000C27B02 /* AudioToolbox.framework in Frameworks */,
+				8D7420391CCC354000C27B02 /* AVFoundation.framework in Frameworks */,
+				8D74202E1CCAED5800C27B02 /* Slt.framework in Frameworks */,
+				8D7420341CCAF4D300C27B02 /* RuleORamaDemo.framework in Frameworks */,
+				8D7420301CCAF25900C27B02 /* RapidEarsDemo.framework in Frameworks */,
+				8D7420321CCAF46900C27B02 /* RejectoDemo.framework in Frameworks */,
+				8D74202D1CCAED5800C27B02 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +90,13 @@
 		8D50BA811B41C5CD00DACA0A = {
 			isa = PBXGroup;
 			children = (
+				8D7420361CCC354000C27B02 /* AudioToolbox.framework */,
+				8D7420371CCC354000C27B02 /* AVFoundation.framework */,
 				8D3FB20F1CC0614900901AE7 /* .gitignore.sh */,
+				8D74202F1CCAF25900C27B02 /* RapidEarsDemo.framework */,
+				8D7420331CCAF4D300C27B02 /* RuleORamaDemo.framework */,
+				8D7420311CCAF46900C27B02 /* RejectoDemo.framework */,
+				8D7420281CCAED5800C27B02 /* Framework */,
 				8D50BA8C1B41C5CD00DACA0A /* Emojis' Definition */,
 				8D50BAA21B41C5CD00DACA0A /* Emojis' DefinitionTests */,
 				8D50BA8B1B41C5CD00DACA0A /* Products */,
@@ -85,6 +115,7 @@
 		8D50BA8C1B41C5CD00DACA0A /* Emojis' Definition */ = {
 			isa = PBXGroup;
 			children = (
+				8D7420351CCBF6EE00C27B02 /* BridgingHeaderCtoSwift.h */,
 				8D50BA8F1B41C5CD00DACA0A /* AppDelegate.swift */,
 				8D50BA931B41C5CD00DACA0A /* Main.storyboard */,
 				8D97EE3F1CC07218007AD22F /* SettingsView.swift */,
@@ -121,6 +152,16 @@
 				8D50BAA41B41C5CD00DACA0A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D7420281CCAED5800C27B02 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8D7420291CCAED5800C27B02 /* AcousticModelEnglish.bundle */,
+				8D74202A1CCAED5800C27B02 /* OpenEars.framework */,
+				8D74202B1CCAED5800C27B02 /* Slt.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +208,7 @@
 		8D50BA821B41C5CD00DACA0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Tomas Aviles";
 				TargetAttributes = {
@@ -204,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D50BA951B41C5CD00DACA0A /* Main.storyboard in Resources */,
+				8D74202C1CCAED5800C27B02 /* AcousticModelEnglish.bundle in Resources */,
 				8D50BA9A1B41C5CD00DACA0A /* LaunchScreen.xib in Resources */,
 				8D50BA971B41C5CD00DACA0A /* Images.xcassets in Resources */,
 			);
@@ -356,9 +399,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Emojis' Definition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Lover/Desktop/School/Udemy Apps/Emojis' Definition/Emojis' Definition/BridgingHeaderCtoSwift.h";
 			};
 			name = Debug;
 		};
@@ -366,9 +418,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Emojis' Definition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Lover/Desktop/School/Udemy Apps/Emojis' Definition/Emojis' Definition/BridgingHeaderCtoSwift.h";
 			};
 			name = Release;
 		};

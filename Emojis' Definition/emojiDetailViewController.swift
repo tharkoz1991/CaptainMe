@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 class emojiDetailViewController : UIViewController {
     
     @IBOutlet weak var emojiDefinition: UILabel!
@@ -22,7 +23,7 @@ class emojiDetailViewController : UIViewController {
     
     override func viewDidLoad() {
         
-        var rightSwipe = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
+        let rightSwipe = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
         rightSwipe.direction = .Right
         view.addGestureRecognizer(rightSwipe)
 
